@@ -7,27 +7,51 @@ module.exports = {
     darkMode: false, // or 'media' or 'class'
     theme: {
         fontFamily: {
-            display: ['Open Sans', 'Helvetica', 'sans-serif'],
-            body: ['Open Sans', 'Helvetica', 'sans-serif'],
+            display: ['Poppins', 'Helvetica', 'sans-serif'],
+            body: ['Poppins', 'Helvetica', 'sans-serif'],
         },
         fontSize: {
             xs: ['0.75rem',   '1.5rem'],
-            sm: ['0.875rem',  '1.5rem'],
-            base: ['1rem',      '2rem'],
+            sm: ['0.875rem',  '1.5'],
+            base: ['1.125rem',      '1.5'],
             intro: ['1.0625rem', '2rem'],
-            lg: ['1.125rem',  '1.75rem'],
-            xl: ['1.25rem',   '1.75rem'],
-            '2xl': ['1.5rem',    '2rem'],
+            lg: ['1.125rem',  '1.5'],
+            xl: ['1.31rem',   '1.5'],
+            '2xl': ['1.5rem',    '1.5'],
             '3xl': ['1.875rem',  '2.5rem'],
-            '4xl': ['2.25rem',   '3rem'],
-            '5xl': ['3rem',      '3.5rem'],
-            '6xl': ['3.75rem',   '1'],
+            '4xl': ['2.81rem',   '1.5'],
+            '5xl': ['2.81rem',      '1.5'],
+            '6xl': ['3.125rem',   '1.25'],
             '7xl': ['4.5rem',    '1'],
             '8xl': ['5.5rem',    '1'],
             '9xl': ['7.5rem',    '1'],
         },
         extend: {
             colors: {
+              gray: {
+                300: '#4D6175',
+              },
+              blue: {
+                100: '#B3DCEA',
+                200: '#B4C7D4',
+                300: '#D6F2FF',
+                400: '#D0E2ED',
+                800: '#263E56',
+              },
+              orange: {
+                100: '#FFCBAE',
+              },
+              pink: {
+                100: '#FEDCDC',
+              },
+              indigo: {
+                300: '#E7DCFE',
+                400: '#D5C4FF',
+                700: '#A783FF',
+              },
+              green: {
+                100: '#B7ECD7',
+              },
             },
             margin: {
                 '1/12': '8.333333%',

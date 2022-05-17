@@ -6,6 +6,7 @@
   html,
   body {
     overflow-x: hidden;
+    color: #263E56;
   }
 }
 
@@ -15,7 +16,7 @@
   }
 
   .typo-h1 {
-    @apply font-display font-semibold text-2xl md:text-4xl lg:text-5xl;
+    @apply font-display font-bold text-2xl md:text-4xl lg:text-6xl;
   }
 
   .typo-h2 {
@@ -27,7 +28,7 @@
   }
 
   .typo-h4 {
-    @apply font-display font-semibold text-2xl;
+    @apply font-display font-medium text-2xl;
   }
 
   .typo-h5 {
@@ -39,21 +40,19 @@
   }
 
   .typo-blockquote {
-    @apply font-body text-lg lg:text-xl font-extralight;
-
-    line-height: 3rem;
+    @apply font-body text-lg lg:text-xl font-medium;
   }
 
   .typo-intro {
-    @apply font-semibold text-lg lg:text-xl font-extralight;
+    @apply font-body text-base font-semibold;
   }
 
   .typo-body {
-    @apply font-body text-base font-extralight leading-10;
+    @apply font-body text-base;
   }
 
-  .typo-p {
-    @apply font-body text-base font-light;
+  .typo-small {
+    @apply font-body text-sm font-medium;
   }
 
   /* Container */
